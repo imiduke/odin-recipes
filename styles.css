@@ -1,0 +1,21 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #474747;
+    
+}
+
+.header {
+    background-color: black;
+    color: aliceblue;
+    padding: 16px;
+    margin: 16px auto;
+    width: fit-content;
+}
+
+.rankings-container {
+    box-sizing: border-box;
+    background-color: #bd2121;
+    margin: 16px auto;
+    width: 800px;
+    padding: 25px;
+}
