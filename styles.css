@@ -1,5 +1,9 @@
+* {
+        font-family:'Times New Roman', Times, serif;
+        box-sizing: border-box;
+}
+
 body {
-    font-family:'Times New Roman', Times, serif;
     background-color: #474747;
     
 }
@@ -13,9 +17,22 @@ body {
 }
 
 .rankings-container {
-    box-sizing: border-box;
     background-color: #bd2121;
     margin: 16px auto;
     width: 800px;
     padding: 25px;
+}
+
+a.btn {
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 4px;
+    border: 1px outset buttonborder;
+    color:buttontext;
+    background-color: buttonface;
+}
+
+a.btn:hover {
+    background-color: wheat;
 }
